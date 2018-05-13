@@ -1,0 +1,2 @@
+webpackJsonp([0x65ccee0e7054],{203:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=l(2),n=u(a),o=l(34),r=u(o),c=function(){return n.default.createElement("div",null,n.default.createElement("h1",null,"Projects"),n.default.createElement("p",null,"I have worked on many projects."),n.default.createElement(r.default,{to:"/page-2/"},"Go to page 2"))};t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-project-js-3088f31796c49bd687a2.js.map
