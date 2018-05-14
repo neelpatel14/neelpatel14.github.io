@@ -1,0 +1,2 @@
+webpackJsonp([0xefeaa6d1881d],{370:function(e,t,n){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var l=n(1),u=a(l),r=n(40),o=a(r),d=function(){return u.default.createElement("div",null,u.default.createElement("h1",null,"About Me"),u.default.createElement("p",null,"I am software engineer currently working at Appian in Reston, Virginia."),u.default.createElement(o.default,{to:"/page-2/"},"Go to page 2"))};t.default=d,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-about-js-5db7db97cfee9a53cd59.js.map
