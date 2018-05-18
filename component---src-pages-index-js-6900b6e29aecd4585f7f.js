@@ -1,2 +1,2 @@
-webpackJsonp([35783957827783],{373:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(1),a=l(n),o=u(40),r=(l(o),function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Welcome to my website"))});t.default=r,e.exports=t.default}});
+webpackJsonp([35783957827783],{377:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(1),a=l(n),o=u(32),r=(l(o),function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Welcome to my website"))});t.default=r,e.exports=t.default}});
 //# sourceMappingURL=component---src-pages-index-js-6900b6e29aecd4585f7f.js.map
