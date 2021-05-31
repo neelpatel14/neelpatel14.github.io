@@ -1,0 +1,35 @@
+/* footer {
+position:fixed;
+bottom:0px;
+background:black;
+width:100%;
+} */
+footer {
+  height:100px;
+  bottom:0px;
+  background:#282e38;
+  color:white;
+
+}
+
+.footerwrap {
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactinfo {
+  position:static;
+  padding: 20px;
+  align-items: center;
+}
+
+.socialIcons {
+  position:absolute;
+  right:0px;
+  bottom:50px;
+  border-width: 3px;
+  margin-right:30px;
+  height:25px;
+}

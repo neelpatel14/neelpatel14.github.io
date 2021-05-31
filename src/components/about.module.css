@@ -1,0 +1,223 @@
+.container {
+  background: radial-gradient(#8585ad, #3d3d5c, #1f1f2e);
+  color:  #eeba77;
+
+}
+.profile  {
+    width: 50%;
+    /* max-width: 400px; */
+    top: 5%;
+    z-index: 2;
+    /* mix-blend-mode: hard-light; */
+  }
+  
+  .personalInfo {
+    top:5%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, serif;
+    mix-blend-mode: hard-light;
+  
+  }
+  
+  .overall {
+    display:flex;
+    flex-direction:column;
+    height:1000px;
+  }
+  
+  .skills {
+      width: 100%;
+      font-size: 16px;
+      top:50%;
+      color: white;
+      font-family: Georgia, serif;
+      mix-blend-mode: hard-light;
+      display: flex;
+      color:  #eeba77;
+      /* align-items: center; */
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: radial-gradient(#8585ad, #3d3d5c, #1f1f2e);
+      /* box-shadow: 2px 2px 7px #555 inset; */
+  }
+  
+  .languages {
+    /* border-style: solid; */
+    height:auto;
+    margin:10px;
+  
+  }
+  
+  .software {
+    height:auto;
+    margin:10px;
+  }
+  
+  .aboutTop {
+    height:50%;
+    background: radial-gradient(#a9b6cc, black);
+    /* background: linear-gradient(black, gray, white, #3d3d5c, #1f1f2e); */
+    width:100%;
+    box-shadow: 2px 2px 7px #555 inset;
+  }
+  
+  h3 {
+      font-style: oblique;
+      font-weight: normal;
+      font-family: Brush Script MT, Brush Script Std, cursive;
+      font-size: 30px;
+  }
+  
+  
+  .items{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item{
+  
+    font: 23px/1.5 Brush Script MT, Brush Script Std, cursive;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .item:last-child {
+    border: none;
+  }
+  
+  .item {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 100%;
+  }
+  
+  .item:hover {
+    font-size: 25px;
+    font-family: Helvetica, Verdana, sans-serif;
+    background: #f6f6f6;
+  }
+  .profile:hover {
+    z-index:999;
+    width:60%;
+  
+  }
+  
+  .item:active {
+    font-size: 25px;
+    font-family: Helvetica, Verdana, sans-serif;
+    background: #f6f6f6;
+  }
+  
+  @media only screen and (max-width:1000px) {
+    div.personalInfo {
+      font-size: 14px;
+      width:30%;
+      top:5%;
+    }
+    div.profile {
+      width:30%;
+      top:5%;
+    }
+    div.overall {
+      height: 850px;
+    }
+  }
+  
+  @media only screen and (max-width: 550px){
+    div.personalInfo {
+      position:static;
+      font-size: 14px;
+      width:60%;
+      margin-top: 10px;
+    }
+    div.profile {
+      position:static;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      max-width: 150px;
+      width:50%;
+    }
+    div.overall {
+      height: 850px;
+    }
+    .aboutTop {
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+      /* background: linear-gradient(black, gray, white, #3d3d5c, #1f1f2e); */
+    }
+    .profile:hover {
+      width:100%;
+      max-width: 250px;
+    }
+    .skills {
+        width: 100%;
+        font-size: 16px;
+        top:50%;
+        font-family: Georgia, serif;
+        mix-blend-mode: hard-light;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+    .languages {
+      width: 100%;
+      font-size: 16px;
+      top:50%;
+      font-family: Georgia, serif;
+      mix-blend-mode: hard-light;
+      display: flex;
+      /* align-items: center; */
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .software {
+      height:auto;
+      margin:10px;
+    }
+  }
+  
+  @media only screen and (min-width: 475px) and (max-width: 530px){
+  
+  .item:hover {
+    font: 23px/1.5 Brush Script MT, Brush Script Std, cursive;
+    border-bottom: 1px solid #ccc;
+    }
+  
+  div.personalInfo {
+    font-size: 13px;
+  }
+  }
+  
+  @media only screen and (max-width: 475px) {
+  
+    div.overall {
+      height: 1200px;
+    }
+    div.personalInfo {
+      font-size: 12px;
+    }
+    div.aboutTop {
+      height: 40%;
+    }
+    div.skills {
+      top:40%;
+    }
+  
+  }
+  .wrapper {
+    min-height: 100%;
+  }
+  

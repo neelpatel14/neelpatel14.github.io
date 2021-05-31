@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "neelpatel14.github.io",
+    title: "Neel Patel",
+    author: "Neel Patel"
   },
-  plugins: ["gatsby-plugin-react-helmet"],
+  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-image", "gatsby-plugin-sharp"],
 };

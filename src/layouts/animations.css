@@ -1,0 +1,27 @@
+.transition-group {
+  position: relative;
+}
+
+.transition-container {
+  position: absolute;
+  width:100%;
+  left:0%;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 900ms ease-in;
+}
+
+.example-exit {
+  opacity: 1;
+}
+
+.example-exit.example-exit-active {
+  opacity: 0.01;
+  transition: opacity 400ms ease-in;
+}
