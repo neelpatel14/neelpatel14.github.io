@@ -20,6 +20,18 @@ const TimeLine = () => (
     </VerticalTimelineElement>
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
+      date="2020 - 2020"
+      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff'}}
+      icon={<Suitcaseicon />}
+    >
+      <h3 className="vertical-timeline-element-title" style={{fontSize:"38px"}}>Appian Corporation</h3>
+      <h4 className="vertical-timeline-element-subtitle text-muted">Team Lead</h4>
+      <p>
+        Technical Reviews, Project Management, Agile Coach
+      </p>
+    </VerticalTimelineElement>
+    <VerticalTimelineElement
+      className="vertical-timeline-element--work"
       date="2019 - 2020"
       iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff'}}
       icon={<Suitcaseicon />}
