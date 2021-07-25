@@ -13,7 +13,7 @@ const MyHeader = () => (
     <Navbar.Brand href="/"> Neel Patel</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarResponsive"/>
     <Navbar.Collapse id="navbarResponsive">
-      <Nav as="ul">
+      <Nav variant="pills" defaultActiveKey="/" as="ul">
         <Nav.Item as="li">
         <Link to="/" className="nav-link">
         <div className="mytooltip">

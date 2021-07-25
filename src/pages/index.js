@@ -1,6 +1,6 @@
 import React from 'react'
 import MyHeader from '../components/myheader'
-import About from '../components/aboutpage'
+import About from '../components/aboutpage2'
 import NewAboutPage from '../components/newabout'
 import Footer from '../components/footer'
 import TopAppBar from '../components/topbar'
@@ -18,6 +18,7 @@ const AboutMe = () => (
       </head>
       {/* <TopAppBar /> */}
       < MyHeader />
+      {/* <About /> */}
       <NewAboutPage />
       <Footer />
     </div>
